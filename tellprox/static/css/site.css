@@ -1,211 +1,217 @@
 body {
-	padding-top: 70px;
+    padding-top: 70px;
 }
 
 .main-login {
-	color: #ffffff;
-	margin-bottom: 77px;
-	padding: 38px 38px 267px;
-	position: relative;
-	max-width: 600px;
-	margin:0 auto;
+    color: #ffffff;
+    margin-bottom: 77px;
+    padding: 38px 38px 267px;
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
 }
+
 .main-login-screen {
-	background-color: #1abc9c;
-	padding: 20px;
+    background-color: #1abc9c;
+    padding: 20px;
 }
+
 .main-login-form:after {
-	content: '';
-	border-style: solid;
-	border-width: 12px 12px 12px 0;
-	border-color: transparent #edeff1 transparent transparent;
-	height: 0;
-	position: absolute;
-	left: 35px;
-	top: -16px;
-	width: 0;
-	-webkit-transform: rotate(90deg);
+    content: '';
+    border-style: solid;
+    border-width: 12px 12px 12px 0;
+    border-color: transparent #edeff1 transparent transparent;
+    height: 0;
+    position: absolute;
+    left: 35px;
+    top: -16px;
+    width: 0;
+    -webkit-transform: rotate(90deg);
 }
 
 .main-login-form {
-  background-color: #edeff1;
-  padding: 24px 23px 20px;
-  position: relative;
-  border-radius: 6px;
+    background-color: #edeff1;
+    padding: 24px 23px 20px;
+    position: relative;
+    border-radius: 6px;
 }
 
 .main-login-form .login-field {
-  border-color: transparent;
-  font-size: 17px;
-  text-indent: 3px;
+    border-color: transparent;
+    font-size: 17px;
+    text-indent: 3px;
 }
+
 .main-login-form .login-field:focus {
-  border-color: #1abc9c;
+    border-color: #1abc9c;
 }
+
 .main-login-form .login-field:focus + .login-field-icon {
-  color: #1abc9c;
+    color: #1abc9c;
 }
+
 .main-login-form .login-field-icon {
-  color: #bfc9ca;
-  font-size: 16px;
-  position: absolute;
-  right: 15px;
-  top: 3px;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+    color: #bfc9ca;
+    font-size: 16px;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
 }
 
 .palette {
-	text-transform: none;
+    text-transform: none;
 }
 
 .pagination {
-	width: 100%;
+    width: 100%;
 }
 
 #loading {
-	position:   absolute;
-	z-index:    1000;
-	top:        0;
-	left:       0;
-	height:     100%;
-	width:      100%;
-	background: rgba(255, 255, 255, 0.8)
-				url('../images/ajax-loader.gif') 
-				50% 50% 
-				no-repeat;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8) url('../images/ajax-loader.gif') 50% 50% no-repeat;
 }
 
 /* Devices */
 .device-container {
-	padding: 10px;
+    padding: 10px;
 }
 
 .device-box {
-	/*height: 84px;*/
-	padding-bottom: 1px;
-	padding-left: 3px;
-	padding-top: 1px;
-	padding-right: 30px;
-	color: #fff;
-	background-color: #3498db;
+    /*height: 84px;*/
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-top: 1px;
+    padding-right: 30px;
+    color: #fff;
+    background-color: #3498db;
 }
 
-@media(min-width:768px){
-	.device-box {
-		height: 84px;
-	}
+@media (min-width: 768px) {
+    .device-box {
+        height: 84px;
+    }
 }
 
 .device-box h4 {
-	margin-left: 10px;
-	margin-top: 3px;
-	cursor: default;
+    margin-left: 10px;
+    margin-top: 3px;
+    cursor: default;
 }
 
 .device-config {
-	-webkit-font-smoothing: antialiased;
-	font-family: 'Flat-UI-Icons';
-	display: inline-block;
-	box-sizing: border-box;
-	color: #fff;
-	font-size: 18px;
-	float: right;
-	position: absolute;
-	right: 17px;
-	top: 17px;
-	cursor: pointer;
-	line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Flat-UI-Icons';
+    display: inline-block;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    float: right;
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    cursor: pointer;
+    line-height: 1;
 }
+
 .device-config:before {
-	content: '\e024';
+    content: '\e024';
 }
 
 .device-controls {
-	padding: 0px;
-	border: 4px solid #2980B9;
+    padding: 0px;
+    border: 4px solid #2980B9;
 }
 
-
 .device-controls .pagination ul {
-	background-color: #2980B9;
+    background-color: #2980B9;
 }
 
 .device-controls .pagination ul li {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .device-controls .pagination ul li > a {
-	border: 0px solid #fff;
-	border-radius: 0px;
-	border-color: #2980B9;
-	color: #2980B9;
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    border-color: #2980B9;
+    color: #2980B9;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
-.device-controls .pagination ul li.active > a{
-	border-width: 0px !important;
-	color: #fff;
-	background-color: #2980B9;
+.device-controls .pagination ul li.active > a {
+    border-width: 0px !important;
+    color: #fff;
+    background-color: #2980B9;
 }
 
-.device-controls  .pagination ul li > a {
-	line-height: 36px;
+.device-controls .pagination ul li > a {
+    line-height: 36px;
 }
 
 .palette -container {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 /* End of Devices */
 
-
 #logo {
-	margin-left: 11px;
-	margin-right: 11px;
-	margin-top: 13px;
-	width: 222px;
-	height: 26px;
-}
-.navbar-inner {
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 13px;
+    width: 222px;
+    height: 26px;
 }
 
-.toggle.toggle-off .toggle-radio  {
-	color: #333;
+.navbar-inner {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.toggle.toggle-off .toggle-radio {
+    color: #333;
 }
 
 pre {
- white-space: pre-wrap;       /* css-3 */
- white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
- white-space: -pre-wrap;      /* Opera 4-6 */
- white-space: -o-pre-wrap;    /* Opera 7 */
- word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
 #postOutput {
-	display:block; white-space:pre; color: #000; background-color: #f7f7f9; border-width: 0
+    display: block;
+    white-space: pre;
+    color: #000;
+    background-color: #f7f7f9;
+    border-width: 0
 }
 
 #lightbox {
-    position:fixed;
-    top:0; 
-    left:0; 
-    width:100%; 
-    height:100%; 
-    background: rgba(0,0,0,.7);
-    text-align:center;
-	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
+    display: none;
 }
 
 #deviceEditor {
-	width: 50%;
+    width: 50%;
     margin: 0 auto;
-	margin-top: 100px;
-	background-color: #FFF;
+    margin-top: 100px;
+    background-color: #FFF;
 }

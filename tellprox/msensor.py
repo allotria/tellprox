@@ -21,6 +21,7 @@ class MSensor(object):
     def humidity(self):
         return self.value(TELLSTICK_HUMIDITY)
 
+
 class MSensorValue(object):
     __slots__ = ["value", "timestamp"]
 
